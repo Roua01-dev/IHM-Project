@@ -1,0 +1,105 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e3e3; /* Fond rose pâle */
+}
+
+/* En-tête */
+header {
+    background-color: #f0c6d3; /* Rose clair pour l'en-tête */
+    color: #fff; /* Texte blanc pour contraste */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu de navigation */
+nav {
+    background-color: #f45c85; /* Rose vif pour le menu */
+    color: #fff; /* Texte blanc pour contraste */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff3344; /* Couleur de survol légèrement plus foncée */
+}
+
+/* Contenu de la page */
+.content {
+    background-color: #fff; /* Fond blanc pour le contenu */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Statistiques */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    flex-basis: 30%;
+}
+
+/* Liste des produits */
+.product-list {
+    margin-top: 20px;
+}
+
+.product-list h2 {
+    font-size: 20px;
+    color: #f45c85; /* Rose vif pour les titres */
+    border-bottom: 2px solid #f45c85; /* Ligne rose sous les titres */
+    padding-bottom: 10px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Pied de page */
+footer {
+    background-color: #ff9dbb; /* Rose clair pour le pied de page */
+    color: #fff; /* Texte blanc pour contraste */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
